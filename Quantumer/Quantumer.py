@@ -215,7 +215,7 @@ def add_friend(msg):
         '你好！请输入“生成命令”来开始一个新的任务。Hello!Please enter "生成命令" to start a new task!',
         msg['RecommendInfo']['UserName'])
 
-itchat.auto_login(hotReload=True, enableCmdQR=1)
+itchat.auto_login(hotReload=True, enableCmdQR=2)
 
 
 def start():
